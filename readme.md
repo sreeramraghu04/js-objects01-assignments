@@ -1,16 +1,16 @@
-# JavaScript Objects 01
+# JavaScript
 
-## assignments
+## Object-01 Assignments
 
-1. What is Objects?
+1. What are objects?
 
    - A collection of keys = pairs.Objects are used to store data in key-value pairs.
 
-2. How to create Objects
+2. How to create Objects?
 
    - objects are created using the Object literal syntax.
 
-   ```javascript
+   ```JavaScript
    const person = {
      name: "John",
      age: 30,
@@ -18,11 +18,11 @@
    };
    ```
 
-3. How to access Object properties
+3. How to access Object properties?
 
    - Object properties are accessed using dot notation.
 
-   ```javascript
+   ```JavaScript
    console.log(person.name); // "John"
    console.log(person.age); // 30
    console.log(person.city); // "New York"
@@ -30,17 +30,17 @@
 
    - Object properties are accessed using bracket notation.
 
-   ```javascript
+   ```JavaScript
    console.log(person["name"]); // "John"
    console.log(person["age"]); // 30
    console.log(person["city"]); // "New York"
    ```
 
-4. How to update Object properties
+4. How to update Object properties?
 
    - Object properties are updated using dot notation.
 
-   ```javascript
+   ```JavaScript
    person.name = "Jane";
    person.age = 25;
    person.city = "Los Angeles";
@@ -48,17 +48,17 @@
 
    - Object properties are updated using bracket notation.
 
-   ```javascript
+   ```JavaScript
    person["name"] = "Jane";
    person["age"] = 25;
    person["city"] = "Los Angeles";
    ```
 
-5. How to delete Object properties
+5. How to delete Object properties?
 
    - Object properties are deleted using the delete keyword.
 
-   ```javascript
+   ```JavaScript
    delete person.name;
    delete person.age;
    delete person.city;
@@ -66,17 +66,17 @@
 
    - Object properties are deleted using the delete operator.
 
-   ```javascript
+   ```JavaScript
    delete person["name"];
    delete person["age"];
    delete person["city"];
    ```
 
-6. How to add new Object properties
+6. How to add new Object properties?
 
    - Object properties are added using the dot notation.
 
-   ```javascript
+   ```JavaScript
    person.newProperty = "value";
    ```
 
